@@ -94,6 +94,6 @@ Ran all test suites.
 
 ## Comparison when running `ts-jest` with `babel`
 
-In https://github.com/kachar/ts-jest-no-babel/pull/1 you may find sample Babel configuration which mitigates this issue
+In pull request https://github.com/kachar/ts-jest-no-babel/pull/1 you may find sample Babel configuration which mitigates this issue
 
 The expected behavior is that types are supported in both scenarios of `ts-jest` with or without Babel
