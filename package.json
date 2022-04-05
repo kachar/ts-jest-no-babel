@@ -1,0 +1,22 @@
+{
+  "name": "ts-jest-no-babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kachar/ts-jest-no-babel.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "workspaces": {
+    "packages": [
+      "libs/*"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}

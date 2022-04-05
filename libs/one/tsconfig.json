@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.spec",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "baseUrl": ".",
+    "noEmit": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "module": "esnext",
+    "composite": true,
+    "rootDir": "."
+  },
+  "exclude": [
+    "dist"
+  ]
+}
