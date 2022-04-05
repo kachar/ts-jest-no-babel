@@ -90,3 +90,10 @@ Snapshots:   0 total
 Time:        0.33 s, estimated 1 s
 Ran all test suites.
 ```
+
+
+## Comparison when running `ts-jest` with `babel`
+
+In https://github.com/kachar/ts-jest-no-babel/pull/1 you may find sample Babel configuration which mitigates this issue
+
+The expected behavior is that types are supported in both scenarios of `ts-jest` with or without Babel
